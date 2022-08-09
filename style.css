@@ -12,15 +12,13 @@
 body{
     text-align: center;
     background-color: var(--lightGray);
-    min-width: 375px;
     max-width: 1440px;
-    font-family: 'Outfit', sans-serif;;
-    
+    font-family: 'Outfit', sans-serif;
+    margin: auto;
 }
 
 section{
     background-color: var(--white);
-    height: 600px;
     margin: 20px auto;
     max-width: 50vh;
     border-radius: 15px;
