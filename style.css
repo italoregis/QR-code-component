@@ -22,8 +22,9 @@ section{
     background-color: var(--white);
     height: 600px;
     margin: 20px auto;
-    width: 50vh;
+    max-width: 50vh;
     border-radius: 15px;
+    padding: 10px;
 }
 
 img{
@@ -34,13 +35,10 @@ img{
     border-radius: 10px;
 }
 
-div > h1{
+div{
     width: 90%;
     margin: 0 auto;
     color: var(--darkBlue);
-}
-
-div > p{
     width: 50vh;
     margin: auto;
     padding-block: 20px;
