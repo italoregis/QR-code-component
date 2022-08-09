@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+    background-color: red;
+}
+
+section{
+    background-color: aqua;
+    height: 100vh;
+    margin: 20px;
+}
+
+img{
+    margin: 15px;
+    padding: 0px;
+    width: 50vw;
+    border: 0px solid;
+    border-radius: 10px;
+}
+
+div > strong{
+    background-color: blue;
+    font-size: clamp(1.5em, 1.5em + 3vw, 1.7em);
+    /* font-size: 1.5em; */
+
+}
+
+div#mainText{
+    background-color: azure;
+}
+
+header {
+    font-size: 11px; text-align: center;
+}
+header > a{ 
+    color: hsl(228, 45%, 44%); 
+}
