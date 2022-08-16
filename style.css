@@ -16,31 +16,34 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-section{
+main{
     background-color: var(--white);
     margin: 20px auto;
-    max-width: 50vh;
+    max-width: 300px;
     border-radius: 15px;
     padding: 10px;
 }
 
 img{
-    margin: 15px;
-    padding: 0px;
-    width: 90%;
-    border: 0px solid;
-    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    border-radius: 20px;
 }
 
-div{
+h1{
+    margin: 2px;
+}
+
+p{
     font-family: var(--outfit);
     color: var(--grayishBlue);
+    margin-bottom: 0;
 }
 
-header {
+footer {
     font-size: 11px; text-align: center;
 }
 
-header > a{ 
+footer > a{ 
     color: hsl(228, 45%, 44%); 
 }
