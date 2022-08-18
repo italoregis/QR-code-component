@@ -2,41 +2,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap'); /* font-family: 'Outfit', sans-serif; */
 
 :root{
-    --white: hsl(0, 0%, 100%);
-    --lightGray: hsl(212, 45%, 89%);
-    --grayishBlue: hsl(220, 15%, 55%);
-    --darkBlue: hsl(218, 44%, 22%);
-    --outfit: url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap')
+    --cardBackground: hsl(0, 0%, 100%);
+    --bodyBackground: hsl(212, 45%, 89%);
+    --pColor: hsl(220, 15%, 55%);
+    --hColor: hsl(218, 44%, 22%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
-    text-align: center;
-    background-color: var(--lightGray);
-    max-width: 1440px;
+    background-color: var(--bodyBackground);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
     font-family: 'Outfit', sans-serif;
 }
 
 main{
-    background-color: var(--white);
-    margin: 20px auto;
-    max-width: 300px;
-    border-radius: 15px;
-    padding: 10px;
+    max-width: 330px;
+    margin: 0 auto;
 }
 
-img{
-    display: block;
-    max-width: 100%;
-    border-radius: 20px;
+#card{
+    background-color: var(--cardBackground);
+    padding: 18px;
+    border-radius: 10px;
+}
+
+#card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#text{
+    text-align: center;
+    padding: 20px 10px;
+}
+
+h2{
+    color: var(--hColor);
+    font: 15px;
 }
 
 p{
-    font-family: var(--outfit);
-    color: var(--grayishBlue);
+    padding-top: 12px;
+    color: var(--pColor);
 }
 
+
+
 footer {
-    font-size: 11px; text-align: center;
+    font-size: 11px; 
+    text-align: center;
+    padding-top: 10px;
 }
 
 footer > a{ 
